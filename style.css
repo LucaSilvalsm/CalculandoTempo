@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+  }
+  
+  .container {
+    text-align: center;
+    font-size: 3rem;
+    border: 2px solid black; 
+    border-radius: 3px;
+    padding: 20px; /* Adicionando espaço interno */
+    background-color: white;
+  }
+  
+  input[type="datetime-local"] {
+    width: 330px; /* Largura aumentada */
+    height: 100%; /* Altura aumentada */
+    font-size: 2rem; /* Tamanho da fonte aumentado */
+    margin-bottom: 10px; /* Espaçamento inferior */
+    padding: 10px; /* Adicionando espaço interno */
+  }
+  
+  button {
+    width: 200px; /* Largura aumentada */
+    height: 63px; /* Altura aumentada */
+    font-size: 16px; /* Tamanho da fonte aumentado */
+    padding: 10px; /* Adicionando espaço interno */
+  }
+  
